@@ -1,12 +1,20 @@
 <template>
-    <div>
-      <h1 class="text-4xl text-green-400">Hello, Vue + Laravel!</h1>
+    <Sidebar />
+    <div class="w-full">
+        <Header />
+        <main class="py-5 px-7">Main content</main>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'App',
-  };
-  </script>
-  
+</template>
+
+<script>
+import Sidebar from "./components/layout/Sidebar.vue";
+import Header from "./components/layout/Header.vue";
+
+export default {
+    name: "App",
+    components: {
+        Sidebar,
+        Header,
+    },
+};
+</script>

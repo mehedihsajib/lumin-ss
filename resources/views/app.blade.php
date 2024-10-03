@@ -7,8 +7,8 @@
     
 
 </head>
-<body>
-    <div id="app">
+<body class="font-primary">
+    <div id="app" class="flex">
         <!-- Vue.js will mount here -->
     </div>
 
