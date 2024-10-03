@@ -8,8 +8,7 @@
                 <div class="flex flex-col justify-between h-[90%]">
                     <ul class="flex flex-col gap-3 mt-10">
                         <li>
-                            <a
-                                href="#"
+                            <router-link to="/admin/dashboard"
                                 class="flex gap-3 items-center font-semibold text-dark"
                             >
                                 <img
@@ -17,11 +16,11 @@
                                     alt="Dashboard Icon"
                                 />
                                 <span>Dashboard</span>
-                            </a>
+                            </router-link>
                         </li>
                         <li>
-                            <a
-                                href="#"
+                            <router-link
+                                to="/admin/zone"
                                 class="flex gap-3 items-center font-semibold text-dark"
                             >
                                 <img
@@ -29,13 +28,13 @@
                                     alt=""
                                 />
                                 <span>Manage Zone</span>
-                            </a>
+                            </router-link>
                         </li>
                     </ul>
                     <ul class="flex flex-col gap-3">
                         <li>
-                            <a
-                                href="#"
+                            <router-link
+                                to="/admin/dashboard"
                                 class="flex gap-3 items-center font-semibold text-dark"
                             >
                                 <img
@@ -43,11 +42,11 @@
                                     alt=""
                                 />
                                 <span>Support</span>
-                            </a>
+                            </router-link>
                         </li>
                         <li>
-                            <a
-                                href="#"
+                            <router-link
+                                to="/admin/dashboard"
                                 class="flex gap-3 items-center font-semibold text-dark"
                             >
                                 <img
@@ -55,7 +54,7 @@
                                     alt=""
                                 />
                                 <span>Setting</span>
-                            </a>
+                            </router-link>
                         </li>
                     </ul>
                 </div>
